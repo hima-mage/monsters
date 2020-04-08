@@ -1,0 +1,11 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    /* set it to grid system */
+    display: grid;
+    /* this create column divided into 4 column with each one equal 3  */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    /*  this is the gap between each column  */
+    grid-gap: 20px;
+  }
+  
